@@ -1,0 +1,19 @@
+Infrastruktur Global AWS
+- kita dapat memindahkan lokasi data center kita atau multi locations yg ada diseluruh dunia yang disebut Region
+
+Availability Zone :
+- Amazon CloudFront adalah layanan yang dapat membantu Anda untuk mengirimkan data, video, aplikasi, dan API ke pelanggan di seluruh dunia dengan latensi rendah dan kecepatan transfer yang tinggi.
+- Edge locations adalah lokasi yang digunakan Amazon CloudFront untuk menyimpan salinan cache dengan jarak yang dekat dengan pelanggan sehingga konten dapat terkirim lebih cepat.
+
+4 faktor bisnis yang menentukan pemilihan suatu Region :
+- Compliance (Kepatuhan)
+- Proximity (Kedekatan)
+- Feature Availability (Ketersediaan Fitur)
+- Pricing (Harga)
+
+Cara Menyediakan Sumber Daya AWS
+- AWS Management Console
+- AWS Command Line Interface (CLI)
+- AWS Software Development Kit (SDK)
+- AWS Elastic Beanstalk
+- AWS CloudFormation

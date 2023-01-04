@@ -1,0 +1,18 @@
+Perjalanan Cloud
+- AWS Well-Architected Framework
+  - Operational Excellence (Keunggulan Operasional)
+  - Security (Keamanan)
+  - Reliability (Keandalan)
+  - Performance Efficiency (Efisiensi Kinerja)
+  - Cost Optimization (Pengoptimalan Biaya)
+- AWS Well-Architected Tool
+- Manfaat Komputasi Cloud
+  - Layanan AWS
+  - Terminologi AWS
+  - Manfaat Komputasi Cloud
+    1. Ubah pengeluaran di muka menjadi pengeluaran variabel
+    2. Manfaatkan skala ekonomi yang masif
+    3. Berhenti menebak kapasitas
+    4. Tingkatkan kecepatan dan ketangkasan
+    5. Hentikan biaya pengelolaan dan pemeliharaan data center
+    6. Mendunia dalam hitungan menit

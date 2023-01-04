@@ -1,0 +1,19 @@
+Cloud Practitioner
+virtual machines
+relasional dan nonrelasional database atau HPC (high-performance computing).
+AWS Fargate
+AWS Lambda
+AWS Cost Explorer
+Dedicated Hosts adalah yang paling mahal.
+Amazon EC2 Auto Scaling
+Elastic Load Balancing (ELB)
+Content Delivery Network (CDN) / Amazon CloudFront
+Amazon Route 53.
+AWS Outposts
+Bucket / objek & file 
+write once/read many (WORM)
+relational database management system (RDBMS)
+multi-factor authentication (MFA)
+organizational unit (OU)
+service control policies (SCP)
+Werner Vogels--VP dan CTO di Amazon--yang mengatakan, "Semuanya gagal setiap saat, jadi rencanakan kegagalan sehingga tidak ada yang gagal."

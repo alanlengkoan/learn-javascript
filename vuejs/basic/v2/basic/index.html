@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- cdn vuejs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+
+<body>
+    <h1>Belajar Dasar Vuejs</h1>
+
+    <hr>
+
+    <div id="app">
+        <h4>{{ upperCase() }}</h4>
+        <h4>{{ lowerCase() }}</h4>
+
+        <hr>
+
+        <p>Name : {{ name }}</p>
+        <p>Age : {{ age }}</p>
+        <p>Job : {{ job }}</p>
+        <p>Status : {{ isActived ? 'Yes' : 'No' }}</p>
+        <p>website : <a :href="website" target="_blank">alanlengkoan.com</a></p>
+        <p v-html="websiteTag"></p>
+
+        <hr>
+
+        <ul>
+            <li v-for="row in greats">
+                <h2>{{ great(row) }}</h2>
+            </li>
+        </ul>
+
+        <hr>
+
+        <ul>
+            <li v-for="(row, index) in members">
+               {{ index }}. {{ row.nama }} - {{ row.jurusan }}
+            </li>
+        </ul>
+    </div>
+
+    <!-- js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

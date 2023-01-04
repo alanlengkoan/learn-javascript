@@ -1,0 +1,8 @@
+Pengenalan JavaScript :
+- JavaScript adalah bahasa pemrograman tingkat tinggi yang pada awalnya dikembangkan untuk membuat website menjadi lebih “hidup”. Bersama dengan HTML dan CSS, JavaScript menjadi bahasa pemrograman paling populer untuk mengembangkan aplikasi berbasis web.
+- scripting language adalah kode tidak perlu dikompilasi agar bisa dijalankan.
+- Why JavaScript?
+  - JavaScript adalah bahasa pemrograman  yang penting untuk Anda kuasai jika ingin menjadi web developer, baik itu front-end maupun back-end.
+  - JavaScript bahasa yang versatile
+  - Mudah dipelajari oleh pemula
+  - Potensi karir yang meyakinkan

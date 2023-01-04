@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+
+</head>
+
+<body>
+    <h2>Belajar vuejs</h2>
+    <div id="app">
+        <h2>{{ upperCase() }}</h2>
+        <h2>{{ lowerCase() }}</h2>
+        <h2>{{ nama }}</h2>
+        <p>{{ pesan }}</p>
+        <p>{{ umur }}</p>
+        <p>{{ isActive ? 'success' : 'danger' }}</p>
+    </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <script>
+        const properties = {
+            data() {
+                return {
+                    nama: 'Alan Saputra Lengkoan',
+                    pesan: 'Hello World',
+                    umur: 20,
+                    isActive: true
+                }
+            },
+            methods: {
+                upperCase() {
+                    return this.nama.toUpperCase();
+                },
+                lowerCase() {
+                    return this.nama.toLowerCase();
+                }
+            }
+        };
+
+        Vue.createApp(properties).mount('#app');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+AWS berdiri sejak dari tahun 2006
+
+cloud computing (komputasi cloud) services :
+- cloud provider        => (menggunakan server aws untuk dipakai atau disewa)
+- on-demand             => (digunakan sesuai kebutuhan dan kapan saja)
+- pay for what you use  => (bayar untuk apa yang Anda gunakan)
+- pay as you go         => (membayar sesuai pemakaian tergantung lamanya digunakan oleh sistem atau aplikasi)
+
+Model Penerapan untuk Komputasi Cloud :
+- Cloud-based Deployment
+- On-premises Deployment
+- Hybrid Deployment
+
+Jenis-jenis komputasi cloud :
+- Infrastructure as a Service (IaaS) IaaS berisi blok pembangun dasar untuk IT cloud. Layanan ini memberikan akses ke fitur jaringan, komputer (perangkat keras virtual atau khusus), serta ruang penyimpanan data. IaaS memberikan tingkat fleksibilitas dan kontrol pengelolaan tertinggi atas sumber daya IT. Layanan ini sangat mirip dengan sumber daya IT yang sudah ada dan banyak diketahui oleh departemen dan pengembang IT. 
+- Platform as a Service (PaaS) PaaS memungkinkan Anda fokus pada penerapan dan pengelolaan aplikasi tanpa perlu mengelola infrastruktur dasar (biasanya perangkat keras dan sistem operasi). Hal ini membantu Anda lebih efisien karena tidak perlu lagi khawatir mengenai pengadaan sumber daya, perencanaan kapasitas, pemeliharaan perangkat lunak, patching, atau pengangkatan beban yang tidak terdiferensiasi lainnya yang terjadi saat menjalankan aplikasi. 
+- Software as a Service (SaaS) SaaS menyediakan produk lengkap yang dijalankan dan dikelola oleh penyedia layanan. Orang yang merujuk ke SaaS biasanya mengacu pada aplikasi pengguna akhir (seperti email berbasis web). Dengan penawaran SaaS, Anda tidak perlu memikirkan cara memelihara layanan atau cara mengelola infrastruktur dasar. Anda hanya perlu mengetahui cara menggunakan perangkat lunak khusus tersebut. 
+
+- Apakah kemampuan untuk menginstal mesin MySQL membuat perusahaan Anda menjadi lebih bersaing daripada kompetitor? Mungkin tidak.
+- Apakah dengan menyimpan backup (cadangan) membuat perusahaan Anda lebih unggul dari perusahaan lain? Sekali lagi, diragukan.
+- Data di dalam database, cara membangun tabel, dan mengelola strukturnya itulah yang membuat perusahaan Anda menjadi pembeda di antara pesaing yang lain.
+Di AWS, hal semacam itu disebut undifferentiated heavy lifting (semua proses kerja yang tidak menambah nilai bagi perusahaan) dari IT.

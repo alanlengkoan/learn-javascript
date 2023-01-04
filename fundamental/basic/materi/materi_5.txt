@@ -1,0 +1,33 @@
+Object Oriented Programming (OOP) adalah salah satu paradigma dalam dunia pemrograman komputer. Ia adalah pendekatan berbasis objek, di mana suatu objek terdiri dari kumpulan atribut dan method di dalamnya. Di dalam JavaScript, atribut adalah variabel yang digunakan untuk menyimpan nilai. Sementara method adalah fungsi yang digunakan untuk menjalankan suatu proses.
+
+4 pilar utama OOP :
+- encapsulation
+- abstraction
+- inheritance
+- polymorphism.
+
+object literal adalah penulisan object dengan langsung menuliskan key dan value-nya dalam Object yang dibuat.
+
+Class adalah hal yang sangat penting dalam pemrograman berorientasi objek. Hal itu karena class menyediakan informasi tentang suatu object.
+- membuat class menggunakan sintaksis function
+- membuat class menggunakan sintaksis class
+
+Property & Method Property
+
+Dalam OOP sendiri, properti dibagi menjadi 2:
+Internal interface : method dan property yang dapat diakses oleh method lain namun tidak bisa diambil/dijalankan di luar kelas tersebut.
+External interface : method dan property yang dapat diakses di luar kelas itu sendiri.
+
+Sedangkan di dalam JavaScript sendiri terdapat 2 jenis akses identifier untuk sebuah field:
+Public : dapat diakses dari mana pun.
+Private : hanya dapat diakses dari dalam kelas itu sendiri.
+
+instansiasi adalah proses pembuatan object dari class.
+
+Constructor adalah sebuah method/function yang dijalankan pertama kali ketika object dibuat.
+
+inheritance adalah sebuah konsep dimana sebuah class dapat mewarisi property dan method dari class lain.
+
+overriding method adalah sebuah konsep dimana sebuah method yang ada di parent class dapat di override oleh method yang ada di child class.
+
+object composition adalah sebuah konsep dimana sebuah object dapat memiliki property yang berupa object lain.

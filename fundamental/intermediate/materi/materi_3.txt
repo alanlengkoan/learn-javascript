@@ -1,0 +1,6 @@
+jenis code response :
+- 100-199 : informational responses.
+- 200-299 : successful responses.
+- 300-399 : redirect.
+- 400-499 : client error.
+- 500-599 : server errors.

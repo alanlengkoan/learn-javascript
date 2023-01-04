@@ -1,0 +1,13 @@
+Pemantauan dan Analitik
+- Amazon CloudWatch
+  - Akses ke semua metrik dari satu lokasi
+  - Visibilitas ke seluruh aplikasi, infrastruktur, dan layanan
+  - Mengurangi waktu MTTR dan mengurangi TCO
+  - Mengoptimalkan aplikasi dan sumber daya operasional
+- AWS CloudTrail (log tindakan atau “jejak”)
+- AWS Trusted Advisor (penasihat atau rekomendasi otomatis secara real time)
+  - Cost optimization (pengoptimalan biaya)
+  - Performance (kinerja)
+  - Security (keamanan)
+  - Fault tolerance (toleransi terhadap kesalahan)
+  - Service limits (batas layanan)

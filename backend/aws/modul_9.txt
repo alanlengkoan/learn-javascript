@@ -1,0 +1,21 @@
+1. Migrasi
+   - AWS Cloud Adoption Framework (AWS CAF)
+     - perspektif Business, People, dan Governance
+     - perspektif Platform, Security, dan Operations 
+   - Strategi Migrasi (6R)
+     1. Rehosting
+     2. Replatforming
+     3. Retiring
+     4. Retaining
+     5. Repurchasing
+     6. Refactoring/re-architecting
+   - AWS Snow Family
+     - AWS Snowcone
+     - AWS Snowball
+       - Snowball Edge Storage Optimized
+       - Snowball Edge Compute Optimized.
+     - AWS Snowmobile
+2. Inovasi
+   - Serverless applications (aplikasi tanpa server)
+   - Artificial Intelligence (kecerdasan buatan)
+   - Machine learning (pemelajaran mesin)

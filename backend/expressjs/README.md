@@ -1,0 +1,3 @@
+# learn-express
+
+[Express JS](https://expressjs.com/) adalah salah satu framework yang berasal dari bahasa pemrograman JavaScript yang dirancang secara fleksibel dan minimalis, untuk pengembangan aplikasi back-end. Framework hasil pengembangan dari Node JS ini bisa memberikan kemudahan dalam pembuatan aplikasi dari server-side (sisi server). Pun, Express JS merupakan library dasar framework Node JS.

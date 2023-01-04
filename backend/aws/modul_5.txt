@@ -1,0 +1,48 @@
+Penyimpanan
+- Instance Store
+- Amazon Elastic Block Store (Amazon EBS)
+- Amazon Simple Storage Service (Amazon S3)
+  - S3 Standard
+  - S3 Standard-Infrequent Access (S3 Standard-IA)
+  - S3 One Zone-Infrequent Access (S3 One Zone-IA)
+  - S3 Intelligent-Tiering
+  - S3 Glacier
+  - S3 Glacier Deep Archive
+- Amazon Elastic File System (Amazon EFS) => melakukan scaling secara otomatis tanpa menganggu aplikasi.
+- Amazon Relational Database Service (Amazon RDS)
+  - Amazon Aurora
+  - Amazon RDS for MySQL
+  - Amazon RDS for PostgreSQL
+  - Amazon RDS for MariaDB
+  - Amazon RDS for Oracle
+  - Amazon RDS for SQL Server
+  - Amazon RDS for IBM DB2
+  - Amazon RDS for SAP ASE
+  - Amazon RDS for Sybase ASE
+  - Amazon RDS for PostgreSQL
+  - Amazon RDS for MariaDB
+  - Amazon RDS for Oracle
+  - Amazon RDS for SQL Server
+  - Amazon RDS for IBM DB2
+  - Amazon RDS for SAP ASE
+  - Amazon RDS for Sybase ASE
+  Fitur :
+  - Automated patching (memperbaiki masalah dengan memperbarui program).
+  - Backup (pencadangan).
+  - Redundancy (memiliki lebih dari satu instance untuk berjaga-jaga jika instance utama gagal beroperasi).
+  - Failover (instance lain akan mengambil alih saat instance utama mengalami kegagalan).
+  - Disaster recovery (memulihkan pascabencana).
+  - Encryption at rest (enkripsi data saat disimpan).
+  - Encryption in-transit (enkripsi data saat sedang dikirim dan diterima).
+- Amazon DynamoDB
+- Amazon Redshift
+- AWS Database Migration Service
+- Amazon ElastiCache
+  - homogenous database migration
+  - heterogeneous database migration
+- Amazon DocumentDB
+- Amazon Neptune
+- Amazon Managed Blockchain
+- Amazon Quantum Ledger Database (Amazon QLDB)
+- Amazon ElastiCache
+- Amazon DynamoDB Accelerator (DAX)

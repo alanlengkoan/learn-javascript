@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- cdn vuejs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+
+<body>
+    <h1>Belajar Dasar Vuejs</h1>
+
+    <hr>
+
+    <div id="app">
+       <button @click="error = !error">Error</button>
+       <button @click="success = !success">Success</button>
+
+        <!-- <p v-if="error">Error</p>
+        <p v-else-if="success">Success</p> -->
+        
+        <p v-show="error">Error</p>
+        <p v-show="success">Success</p>
+    </div>
+
+    <!-- js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

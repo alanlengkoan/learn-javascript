@@ -1,0 +1,29 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.theme-light {
+    --bg-background-primary: #FCF8EC;
+    --bg-background-secondary: #D0E8F2;
+    --bg-background-tertiary: #79A3B1;
+
+    --text-copy-primary: #456268;
+    --text-copy-secondary: #D0E8F2;
+    --text-copy-tertiary: #1B262C;
+}
+
+.theme-dark {
+    --bg-background-primary: #1B262C;
+    --bg-background-secondary: #0F4C75;
+    --bg-background-tertiary: #3282B8;
+
+    --text-copy-primary: #BBE1FA;
+    --text-copy-secondary: #0F4C75;
+    --text-copy-tertiary: #1B262C;
+}
+
+.content-wrapper {
+    transition: background-color .35s;
+}

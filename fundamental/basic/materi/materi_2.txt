@@ -1,0 +1,26 @@
+Fundamental JavaScript :
+- instruksi JavaScript
+  - expression merupakan kode yang menghasilkan nilai.
+    1;
+    1 + 1;
+  - statement menunjukkan aksi yang dilakukan untuk deklarasi variabel.
+    var yourName;
+    let yourAge;
+    const numberOfDays;
+- variabel :
+  - Harus dimulai dengan huruf atau underscore (_).
+  - Dapat terdiri dari huruf, angka, dan underscore (_) dengan berbagai kombinasi.
+  - Tidak boleh mengandung spasi (whitespace). Jika penamaan variabel lebih dari dua kata, tuliskan secara camelCase. Contoh firstName, lastName, catName, dll.
+  - Tidak boleh mengandung karakter spesial (! . , / \ + * = dll.)
+- jenis variabel :
+    var   => variabel global
+    let   => variabel statement yang lebih fleksibel untuk digunakan kembali dan nilainya dapat diubah
+    const => variabel yg memiliki nilai tetap
+- tipe data :
+  - string
+  - number
+  - boolean
+  - null
+  - undefined
+  - object
+  - symbol

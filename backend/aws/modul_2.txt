@@ -1,0 +1,44 @@
+Amazon Elastic Compute Cloud (Amazon EC2)
+
+cloud computing
+- IAAS (Infrastructure as a Service)
+- PAAS (Platform as a Service)
+- SAAS (Software as a Service)
+
+Tipe instance
+- General purpose instances (Instance tujuan umum)
+- Compute optimized instances (Instance teroptimasi untuk komputasi)
+- Memory optimized instances (Instance teroptimasi untuk memori)
+- Accelerated computing instances (Instance terakselerasi untuk komputasi)
+- Storage optimized instance (Instance teroptimasi untuk penyimpanan)
+
+Harga Amazon EC2
+- On-Demand (Sesuai Permintaan)
+- Savings Plans (Rencana Tabungan)
+- Reserved Instances (Instance Terpesan)
+- Spot Instances (Instance Spot)
+- Dedicated Hosts (Host Khusus)
+
+Terdapat tiga opsi pembayaran pada Reserved Instances:
+- All upfront (semua di muka), yaitu Anda membayarnya secara penuh saat Anda berkomitmen.
+- Partial upfront (sebagian di muka), di mana Anda membayar sebagian di awal.
+- No upfront (tanpa uang muka), di mana Anda tak membayar apa pun di muka.
+
+Dengan menggunakan Amazon EC2 Auto Scaling, Anda dapat menggunakan dua pendekatan:
+- Dynamic scaling, yaitu merespons terhadap perubahan permintaan.
+- Predictive scaling, yaitu secara otomatis menjadwalkan jumlah Amazon EC2 instances yang tepat berdasarkan prediksi permintaan.
+
+layanan perpesanan
+- Amazon Simple Queue Service (Amazon SQS)
+- Amazon Simple Notification Service (Amazon SNS)
+
+Layanan komputasi
+- Amazon Elastic Container Service (Amazon ECS)
+- Amazon Elastic Kubernetes Service (Amazon EKS)
+- AWS Fargate
+- AWS Lambda
+
+Container
+- Menggunakan satu host dengan banyak container.
+- Mengelola puluhan host dengan ratusan container.
+- Mengurus mungkin ratusan host dengan ribuan container.

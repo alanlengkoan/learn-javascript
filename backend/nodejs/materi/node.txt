@@ -1,0 +1,101 @@
+concurrency            => mengerjakan beberapa pekerjaan satu persatu (single core / multi threading)
+parallel / parallelism => mengerjakan beberapa pekerjaan dalam satu waktu (multi core)
+
+synchronous  => pembacaan kode secara berurut dan berjalan secara sequential, dan semua tahapan ditunggu sampai prosesnya selesai baru akan dieksekusi ke tahapan selanjutnya.
+asynchronous => pembacaan kode secara acak dan prosesnya tidak perlu menunggu eksekusi kode tersebut selesai, kita bisa lanjut ke tahapan kode program selanjutnya dan proses berjalan pada thread yang berbeda.
+
+blocking     => proses yang membutuhkan waktu lama untuk dieksekusi, sehingga akan memblokir proses lainnya atau berjalan secara synchronous
+non-blocking => proses yang tidak membutuhkan waktu lama untuk dieksekusi, sehingga tidak akan memblokir proses lainnya atau berjalan secara asynchronous mengirim callback
+
+multi threading => proses yang berjalan secara asynchronous namun proses berjalan pada thread yang sama sampai selesai
+
+konstan   => tidak berubah
+konsisten => tidak berubah
+
+github actions for CI/CD
+CI (continuous integration)
+
+CD (continuous delivary)
+
+- deploy -> cara public module atau fitur
+  => local -> develop
+  => staging -> testing
+  => production -> lauching
+
+- code splitting -> dipisahkan
+
+- code refactoring 
+  -> usability (don't repeat ur self) -> like helper atau layout base template
+  -> readability -> clean code atau mudah dibaca, dimengerti, flow, alur dan proses
+  
+- hosting dan domain
+
+- api (aplication programing interface)
+
+- third party -> memasukkan external code dalam project
+
+- repository -> penyimpanan sourcecode (github, gitlab, bitbucket)
+
+- thread => proses
+  - thread => php
+  - multi thread => nodejs
+ 
+- threadpool => tempat dimana kita menyimpan thread, ketika kita butuh kita akan ambil dari threadpool ketika sudah selesai, kita akan kembalikan thread nya ke threadpool
+
+- thradpool queue => memasukkan task kedalam antrian untuk dieksekusi oleh thread didalam threadpool
+
+- secara default jika menggunakan extension mjs global code adalah async untuk menggunakan await async
+
+- gunakan versi lts
+
+pacakge :
+  - npm (https://www.npmjs.com/)
+  - yarn (https://yarnpkg.com/)
+
+link :
+https://libuv.org/                              => libuv library yang digunakan nodejs untuk worker threadpool
+https://nodejs.org/dist/latest-v16.x/docs/api/  => dokumentasi nodejs
+https://reflectoring.io/nodejs-modules-imports/ => perbedaan commonjs dan module
+https://hookbin.com/                            => untuk testing api requests
+https://semver.org/                             => semantic versioning untuk tatacara pemberian versi aplikasi atau sistem
+https://semver.npmjs.com/                       => untuk melihat versi aplikasi yang tersedia
+
+semantic version
+project configuration
+
+type : module => untuk mengaktifkan js module (default commonjs)
+project type :
+- commonjs
+- module
+
+script : untuk eksekusi script (special / khusus)
+menjalankan script custom : npm run-script namascript
+menjalankan script special/khusus : npm namascript (start, stop, test, restart, uninstall, version dll) dan memiliki prenamascript
+https://docs.npmjs.com/cli/v8/using-npm/scripts
+
+exports : untuk export module tanpa menggunakan ekstension file.js => file
+example : 
+- "."       => "namamodulefile.js"
+- "./write" => "module/namamodulefile.js"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

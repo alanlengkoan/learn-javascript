@@ -1,0 +1,49 @@
+Keamanan (Security)
+- Customer
+  * Data
+  * Application
+  * OS (Operating System)
+- AWS
+  * HyperVisor
+  * Network
+  * Physical
+
+AWS Identity 
+
+Compliance (Kepatuhan)
+- AWS Artifact
+  - AWS Artifact Agreements
+  - AWS Artifact Reports
+- AWS Compliance Center
+
+Serangan Denial-of-Service
+- denial-of-service (DoS) => serangan satu sumber
+- Distributed denial-of-service alias DDoS => serangan beberapa sumber
+  - UDP flood
+  - HTTP level attack
+  - Slowloris attack
+- AWS Shield
+  - AWS Shield Standard
+  - AWS Shield Advanced
+
+- Encryption at rest
+- Encryption in transit
+
+AWS Organizations
+fitur :
+- Manajemen terpusat
+- Consolidated billing (Tagihan terkonsolidasi)
+- Pengelompokan hierarki akun
+- Kontrol atas layanan AWS dan tindakan API
+
+Access Management (AWS IAM)
+fitur :
+- IAM users
+- IAM policies
+- IAM groups
+- IAM roles
+
+AWS Key Management Service (AWS KMS)
+AWS Web Application Firewall (AWS WAF)
+Amazon Inspector
+Amazon GuardDuty

@@ -1,0 +1,1 @@
+console.table(Object.getOwnPropertyNames(global));

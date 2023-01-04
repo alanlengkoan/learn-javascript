@@ -1,0 +1,16 @@
+Functional Programming (FP)
+
+Paradigma Functional Programming adalah paradigma pemrograman di mana proses komputasi didasarkan pada fungsi matematika murni.
+
+imperatif => "how to solve" model manual dan panjang dalam menulis kode
+
+deklaratif => “what to solve” mudah dibaca dan ringkas
+
+Impure Function     => function yang mengubah data di luar function
+Pure Function       => function yang tidak mengubah data di luar function
+    - Mengembalikan nilai yang sama bila inputannya (nilai parameter) sama.
+    - Hanya bergantung pada argumen yang diberikan.
+    - Tidak menimbulkan efek samping.
+Immutability        => 
+Recursive           => merupakan teknik pada sebuah function yang memanggil dirinya sendiri.
+High-Order Function => function yang menerima function sebagai parameter atau mengembalikan function.

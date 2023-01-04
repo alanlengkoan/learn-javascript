@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- cdn vuejs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+
+<body>
+    <h1>Belajar Dasar Vuejs</h1>
+
+    <hr>
+
+    <div id="app">
+        <table>
+            <tr>
+                <td>Makanan</td>
+                <td>:</td>
+                <td>
+                    <input type="text" ref="input" :placeholder="food">
+                    <p>Makanan kesukaan kamu adalah: {{ food }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button @click="readRefs">Submit</button>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td>
+                    <input type="text" ref="name" :placeholder="name">
+                    <p>{{ name }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>:</td>
+                <td>
+                    <input type="text" ref="age" :placeholder="age">
+                    <p>{{ age }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button @click="addData">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- cdn vuejs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+
+<body>
+    <h1>Belajar Dasar Vuejs</h1>
+
+    <hr>
+
+    <div id="app">
+        <p>my age is {{ age }}</p>
+
+        <!-- <button v-on:click="age++">add age</button> -->
+        <button v-on:click.once="age++">add age</button>
+        <button v-on:click="age--">subtract age</button>
+        
+        <hr>
+
+        <button @click="add(1)">add age</button>
+        <button v-on:click="subtract(1)">subtract age</button>
+        <button @dblclick="add(10)">add 10 age</button>
+        <button v-on:dblclick="subtract(10)">subtract 10 age</button>
+
+        <hr>
+
+        <button @click="clickMe">Clik Me!</button>
+        <a href="" @click="saying">Saying!</a>
+
+
+        <hr>
+
+        <a @click.prevent="click" href="https://alanlengkoan.com">alanlengkoan.com</a>
+
+        <hr>
+
+        <div class="canvas" v-on:mousemove="updateXY">{{ x }}, {{ y }}</div>
+    </div>
+
+    <!-- js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

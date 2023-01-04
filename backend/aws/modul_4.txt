@@ -1,0 +1,15 @@
+Konektivitas ke AWS :
+- Amazon Virtual Private Cloud (Amazon VPC)
+- Internet Gateway 
+- Virtual Private Gateway
+- AWS Direct Connect
+
+Subnet dan Network Access Control List
+- Network Access Control List melihat daftar paket yang akan masuk dan keluar lalu lintas apa bila tidak terdaftar maka akan diblokir.
+- Subnet
+- Security Group mengizinkan traffic tertentu untuk masuk dan--secara default--membolehkan semua lalu lintas keluar.
+
+Jaringan Global
+- Domain Name System (DNS)
+- Amazon Route 53
+- Amazon CloudFront

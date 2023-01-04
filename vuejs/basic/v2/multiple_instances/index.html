@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- cdn vuejs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+
+<body>
+    <h1>Belajar Dasar Vuejs</h1>
+
+    <hr>
+
+    <div id="app-one">
+        <h2>{{ title }}</h2>
+        <p>{{ greet }}</p>
+        <ul>
+            <li v-for="row in greats">
+                <h2>{{ row }}</h2>
+            </li>
+        </ul>
+          <button @click="changeTitle">Change title app two</button>
+    </div>
+    
+    <hr>
+
+    <div id="app-two">
+        <h2>{{ title }}</h2>
+        <p>{{ greet }}</p>
+        <ul>
+            <li v-for="row in greats">
+                <h2>{{ row }}</h2>
+            </li>
+        </ul>
+        <button @click="changeTitle">Change title app one</button>
+    </div>
+
+    <!-- js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

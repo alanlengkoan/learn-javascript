@@ -1,0 +1,26 @@
+Harga dan Dukungan
+- AWS Free Tier (AWS Tingkat Gratis)
+  - Always free
+  - 12 months free
+  - Trials
+- Konsep Harga AWS
+  - Pay for what you use (Bayar sesuai yang Anda gunakan)
+  - Pay less when you reserve (Berhemat saat Anda memesan di awal)
+  - Pay less with volume-based discounts when you use more (Bayar lebih murah dengan diskon berbasis volume saat Anda menggunakan lebih sering)
+- AWS Pricing Calculator
+- Billing Dashboard
+- Consolidated Billing
+- AWS Budgets
+- AWS Cost Explorer
+- AWS Support Plans
+  - Basic
+  - Developer
+  - Business
+  - Enterprise
+- Technical Account Manager (TAM)
+  - Operational Excellence
+  - Security
+  - Reliability
+  - Performance Efficiency
+  - Cost Optimization
+- AWS Marketplace
