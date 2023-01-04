@@ -1,4 +1,4 @@
-## istilah
+## istilah :
 - fault tolerance (toleransi terhadap kesalahan)
 - highly available (sangat tersedia / ketersediaan tinggi)
 - instance (server virtual)

@@ -1,4 +1,4 @@
-## article
+## article :
 - [Beberapa kelebihan dari Node JS dan framework backend JS yang powerfull dan panduan hijrah ke Node JS dari web developer bahasa php.](https://medium.com/javascript-in-plain-english/node-js-for-php-developers-4084aa3ed723)
 - [Cara menggunakan ES Modules di backend Node JS seperti Express, dan bukan dengan Common JS](https://medium.com/dev-genius/nodejs-using-es-modules-instead-of-commonjs-9c6e801e7508)
 - [Cara konfigurasi Mongoose di Express JS](https://medium.com/javascript-in-plain-english/how-to-set-up-mongoose-with-expressjs-da2cc34c9219)
@@ -16,7 +16,7 @@
 - [Contoh penggunaan Assert Module di backend Node JS](https://blog.logrocket.com/using-assert-modules-to-verify-invariants-in-nodejs/)
 - [Latihan menggunakan Socket IO untuk menampilkan realtime Tweet dari Traversy Media](https://www.youtube.com/watch?v=PjjjhGW4ceM)
 
-## youtube
+## youtube :
 - [Programing Zaman Now](https://www.youtube.com/watch?v=b39Xqf5iyjo&list=PL-CtdCApEFH9540Fr7MvF9t-vG6pR9vjw)
 - [Web Programming UNPAS](https://www.youtube.com/watch?v=sSLJx5t4OJ4&list=PLFIM0718LjIW-XBdVOerYgKegBtD6rSfD)
 - [freeCodeCamp (full)](https://www.youtube.com/watch?v=Oe421EPjeBE)
@@ -30,3 +30,6 @@
 - [baledemy (nodejs)](https://www.youtube.com/watch?v=rNE9DMwk3kw&list=PL9At9z2rvOC-sgzJx7rM_wMDONnEM4E0A)
 - [baledemy (expressjs)](https://www.youtube.com/watch?v=8gpc3W-6-s8&list=PL9At9z2rvOC8ETtj8X1w5HLcaRUmRoS-3)
 - [Miss Xing (nodejs)](https://www.youtube.com/watch?v=ijlEAK80S2k&list=PLGTrAf5-F1YLBTY1mToc_qyOiZizcG_LJ)
+
+## roadmap :
+![image](https://drive.google.com/uc?export=view&id=1V_98W6LkOsquU1qJuWGQ2r5hZbPXw_aQ)

@@ -1,8 +1,4 @@
-## youtube
-- [Programing Zaman Now](https://www.youtube.com/watch?v=SDROba_M42g&list=PL-CtdCApEFH8SS0Gsj9_a0cC0jypFEoSg)
-- [Web Programming UNPAS](https://www.youtube.com/playlist?list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w)
-
-## istilah
+## istilah :
 - compiler
 - debugging (identifikasi dan perbaikan eror)
 - interpreter
@@ -37,6 +33,10 @@
 - server
 - web service
 - web server
+- 
+## youtube :
+- [Programing Zaman Now](https://www.youtube.com/watch?v=SDROba_M42g&list=PL-CtdCApEFH8SS0Gsj9_a0cC0jypFEoSg)
+- [Web Programming UNPAS](https://www.youtube.com/playlist?list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w)
 
-## roadmap
-![](https://drive.google.com/file/d/1tIbLoI7eNGr6QJGeXRSW4n2LKBVUkxGD/view?usp=share_link)
+## roadmap :
+![image](https://drive.google.com/uc?export=view&id=1tIbLoI7eNGr6QJGeXRSW4n2LKBVUkxGD)
