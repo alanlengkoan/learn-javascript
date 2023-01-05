@@ -12,6 +12,12 @@
 - [The Net Ninja - vuejs 3 & tailwindcss](https://www.youtube.com/watch?v=gUsBaB5ViAo&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ)
 - [The Net Ninja - tailwindcss]( https://www.youtube.com/watch?v=bxmDnn7lrnk&list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
 - [The Net Ninja - tailwindcss just in time](https://www.youtube.com/watch?v=aQS7kaje-24&list=PL4cUxeGkcC9ht1OMQPhBVKAb2dVLhg-MJ)
+- [Sekolah Koding - vuejs 2](https://www.youtube.com/watch?v=EmCBOtkXxdg&list=PLCZlgfAG0GXCFeOD_wBc9GrYF9pA8loLQ)
+- [Sekolah Koding - vuejs 3](https://www.youtube.com/watch?v=j6SDoQ40aHo&list=PLCZlgfAG0GXDBWSuPnM-U3uZGgebfxPSl)
+
+## library :
+- [vuejs x tailwindcss](https://www.vue-tailwind.com)
+- [vuejs x bootstrap](https://bootstrap-vue.org)
 
 ## roadmap :
 ![image](https://drive.google.com/uc?export=view&id=1BxLuZWsI_XrB_6nzKl7Py_TirbOdQs16)
