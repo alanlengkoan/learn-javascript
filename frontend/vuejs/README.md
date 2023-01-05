@@ -1,7 +1,7 @@
 ## youtube :
 - [Traversy Media - vuejs crash course](https://www.youtube.com/watch?v=Wy9q22isx3U&t=3s)
 - [freeCodeCamp.org - vuejs full course for beginner](https://www.youtube.com/watch?v=Wy9q22isx3U&t=3s)
-- [The Net Ninja - vuejs 2](https://medium.com/javascript-in-plain-english/node-js-for-php-developers-4084aa3ed723)
+- [The Net Ninja - vuejs 2](https://www.youtube.com/watch?v=5LYrN_cAJoA&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa)
 - [baledemy -vuejs 2](https://www.youtube.com/watch?v=OlHYirmHhK0&list=PL9At9z2rvOC-Z6Gt8uO1XMp4oyMlE3gml)
 - [The Net Ninja - vuejs 3](https://www.youtube.com/watch?v=YrxBCBibVo0&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1)
 - [baledemy - nuxtjs](https://www.youtube.com/watch?v=jE0mrhT3ZIc&list=PL9At9z2rvOC8xDXO3gjWpjb1Twia0DONV)
