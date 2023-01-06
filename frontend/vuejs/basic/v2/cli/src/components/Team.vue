@@ -7,6 +7,7 @@
                 <h3 v-show="row.show">{{ row.position }}</h3>
             </li>
         </ul>
+        <button @click="deletePlayer">Delete Player</button>
     </div>
 </template>
 
@@ -41,9 +42,19 @@
                         position: 'Forward-Center',
                         show: false
                     },
+                    {
+                        name: 'Alan Saputra Lengkoan',
+                        position: 'Small-Forward',
+                        show: false
+                    },
                 ]
             }
         },
+        methods: {
+            deletePlayer() {
+                this.teams.pop();
+            }
+        }
     }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
     <footer>
         <span>
-            &copy; {{ copyright }}
+            &copy; {{ copyright }} {{ title }}
         </span>
     </footer>
 </template>
@@ -9,9 +9,18 @@
 <script>
 export default {
     name: 'Footer',
+    props: {
+        copyright: {
+            type: String,
+            default: '-'
+        },
+        title: {
+            type: String,
+            default: '-'
+        }
+    },
     data() {
         return {
-            copyright: 'Copyright 2023 Alan'
         }
     }
 }
