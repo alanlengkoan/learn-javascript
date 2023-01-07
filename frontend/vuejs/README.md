@@ -15,9 +15,5 @@
 - [Sekolah Koding - vuejs 2](https://www.youtube.com/watch?v=EmCBOtkXxdg&list=PLCZlgfAG0GXCFeOD_wBc9GrYF9pA8loLQ)
 - [Sekolah Koding - vuejs 3](https://www.youtube.com/watch?v=j6SDoQ40aHo&list=PLCZlgfAG0GXDBWSuPnM-U3uZGgebfxPSl)
 
-## library :
-- [vuejs x tailwindcss](https://www.vue-tailwind.com)
-- [vuejs x bootstrap](https://bootstrap-vue.org)
-
 ## roadmap :
 ![image](https://drive.google.com/uc?export=view&id=1BxLuZWsI_XrB_6nzKl7Py_TirbOdQs16)
