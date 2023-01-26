@@ -9,9 +9,9 @@ numbers.push(25);
 
 console.log(numbers);
 
-let mixed = ['Alan', 30, 'Web Developer', 40];
-mixed.push('Marcel');
-mixed.push(50);
-mixed[0] = 10;
+let data = ['Alan', 30, 'Web Developer', 40];
+data.push('Marcel');
+data.push(50);
+data[0] = 10;
 
-console.log(mixed);
+console.log(data);
