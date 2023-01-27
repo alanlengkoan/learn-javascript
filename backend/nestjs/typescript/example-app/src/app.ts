@@ -1,15 +1,7 @@
-import { Invoice } from './classes/invoice.js';
-
-const invOne = new Invoice('mario', 'work on the mario website', 250);
-const invTwo = new Invoice('luigi', 'work on the luigi website', 300);
-
-let invoices: Invoice[] = [];
-invoices.push(invOne);
-invoices.push(invTwo);
-
-invoices.forEach(inv => {
-    console.log(inv.client, inv.amount, inv.format());
-});
+import { Cash } from './classes/cash.js';
+import { Transfer } from './classes/transfer.js';
+import { hasFormatter } from "./interfaces/hasFormat.js";
+import { listTemplate } from "./classes/listTemplate.js";
 
 const form = document.querySelector('form')! as HTMLFormElement;
 
@@ -19,13 +11,18 @@ const tofrom = document.querySelector('#tofrom')! as HTMLInputElement;
 const details = document.querySelector('#details')! as HTMLInputElement;
 const amount = document.querySelector('#amount')! as HTMLInputElement;
 
+const ul = document.querySelector('ul')!;
+const list = new listTemplate(ul);
+
 form.addEventListener('submit', (e: Event) => {
   e.preventDefault();
 
-  console.log(
-    type.value,
-    tofrom.value,
-    details.value,
-    amount.valueAsNumber
-  );
+  let doc: hasFormatter;
+  if (type.value === 'cash') {
+    doc = new Cash(tofrom.value, details.value, amount.valueAsNumber);
+  } else {
+    doc = new Transfer(tofrom.value, details.value, amount.valueAsNumber);
+  }
+
+  list.render(doc, type.value, 'end');
 });
